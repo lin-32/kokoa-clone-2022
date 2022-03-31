@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - kakao Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+   <!--far = 속이빈 아이콘, fas = 속이찬 아이콘-->
+  <body>
+  
+    <div class="status-bar">
+      <div class="status-bar__colunm">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__colunm">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__colunm">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--Battery Icon-->
+        <!--Lightning Icon-->
+      </div>
+    </div>
+
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar "
+                src="C:\Users\leese\OneDrive\바탕 화면\요모조모\KakaoTalk_20220327_174613279.jpg" >
+                
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Juhee</h4>
+                    <h6 class="user-component__subtitle">
+                        Please check My favorite Webtoon</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">21:22</span>
+                <div class="badge">5</div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="chat-space"></div>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar "
+                src="C:\Users\leese\OneDrive\바탕 화면\요모조모\KakaoTalk_20220327_174546434.jpg">
+                
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Soyeon</h4>
+                    <h6 class="user-component__subtitle">
+                        Let's stream My IU new song</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">19:30</span>
+                <div class="badge">2</div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="chat-space"></div>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar "
+                src="C:\Users\leese\OneDrive\바탕 화면\요모조모\KakaoTalk_20220327_183710826.jpg">
+                
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Sumin</h4>
+                    <h6 class="user-component__subtitle">
+                        I'm thinking I have to study CPA</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">16:15</span>
+                <div class="badge">1</div>
+              </div>
+            </div>
+          </main>
+          
+
+
+    <!--nav>ul>li*4>a*1-->
+    <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn"> <!--friends-->
+            <a class="nav__link" href="friends.html">
+              <i class="far fa-user fa-2x"></i>
+            </a> 
+          </li>
+          
+          <li class="nav__btn"> <!--chats-->
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">1</span>
+              <i class="fa-solid fa-comment fa-2x"></i>
+          </a> 
+          </li>
+  
+          <li class="nav__btn"> <!--search-->
+            <a class="nav__link" href="find.html">
+              <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a> 
+  
+          </li class="nav__btn"> <!--more-->
+          <li> 
+            <a class="nav__link" href="more.html"> 
+              <span class="nav__notification__2"></span>
+                <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+          </li>
+        </ul>
+      </nav>
+
+
+    <script
+      src="https://kit.fontawesome.com/8a201b75ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--script는 항상 body 닫기 직전에 위치-->
+  </body>
+</html>
